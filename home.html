@@ -15,6 +15,7 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 
 
@@ -29,7 +30,7 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- header section start -->
 	<header class="header-section">
 		<div class="container">
@@ -44,7 +45,7 @@
 					<nav class="main-menu">
 						<ul>
 							<li><a href="home.html">Home</a></li>
-							<li><a href="about.heml">About</a></li>
+							<li><a href="about.html">About</a></li>
 							<li><a href="home-2.html">Work</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
@@ -71,44 +72,86 @@
 	<!-- intro section end -->
 
 
-	<!-- page section start -->
-	<section class="page-section">
+	<!-- portfolio section start -->
+	<section class="portfolio-section">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 offset-lg-3 contect-tect">
-					<h2>So, let’s talk</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat sollicitudin, blandit quam vitae.</p>
+			<ul class="portfolio-filter controls">
+				<li class="control" data-filter="all">All</li>
+				<li class="control" data-filter=".web">Web design</li>
+				<li class="control" data-filter=".digital">Digital design</li>
+				<li class="control" data-filter=".rened">3D Renedering</li>
+				<li class="control" data-filter=".brand">Brand Identity</li>
+			</ul>
+		</div>                       
+		<div class="container-fluid p-md-0 ">
+			<div class="row portfolios-area">
+				<div class="mix col-lg-6 col-md-6 web">
+					<a href="img/portfolio/1.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/1.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-6 col-md-6 digital">
+					<a href="img/portfolio/2.jpg" class="portfolio-item set-bg " data-setbg="img/portfolio/2.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-4 col-md-6 web">
+					<a href="img/portfolio/3.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-4 col-md-6 digital">
+					<a href="img/portfolio/4.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/4.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-4 col-md-6 rened">
+					<a href="img/portfolio/5.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/5.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-12 col-md-6 brand">
+					<a href="img/portfolio/6.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/6.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-6 col-md-6 rened">
+					<a href="img/portfolio/7.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/7.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+				</div>
+				<div class="mix col-lg-6 col-md-6 brand">
+					<a href="img/portfolio/8.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/8.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
 				</div>
 			</div>
-			<form class="contact-form">
-				<div class="row">
-					<div class="col-md-6">
-						<input type="text" placeholder="Name">
-					</div>
-					<div class="col-md-6">
-						<input type="text" placeholder="E-mail">
-					</div>
-					<div class="col-md-6">
-						<input type="text" placeholder="Subject">
-					</div>
-					<div class="col-md-6">
-						<input type="text" placeholder="How did you hear about us?">
-					</div>
-					<div class="col-md-12">
-						<textarea placeholder="Message"></textarea>
-					</div>
-				</div>
-				<div class="text-center">
-					<button class="site-btn">Send</button>
-				</div>
-			</form>
 		</div>
 	</section>
-	<!-- page section end -->
+	<!-- portfolio section end -->
+
 
 	<!-- footer section start -->
 	<footer class="footer-section text-center">
 		<div class="container">
+			<h2 class="section-title mb-5">Let’s work together</h2>
+			<a href="" class="site-btn">Get in touch</a>
 			<div class="social-links">
 				<a href=""><span class="fa fa-pinterest"></span></a>
 				<a href=""><span class="fa fa-linkedin"></span></a>
@@ -123,6 +166,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!-- footer section end -->
+
 
 
 	<!--====== Javascripts & Jquery ======-->
